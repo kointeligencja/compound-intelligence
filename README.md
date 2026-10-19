@@ -8,7 +8,7 @@ Version **0.3.2** packages manual case continuity and first-use installation/Jev
 
 ## Download and start
 
-**[Download the portable skill ZIP](https://github.com/gofarrrr/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip)** · [All release assets and checksums](https://github.com/gofarrrr/compound-intelligence/releases/tag/v0.3.2)
+**[Download the portable skill ZIP](https://github.com/kointeligencja/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip)** · [All release assets and checksums](https://github.com/kointeligencja/compound-intelligence/releases/tag/v0.3.2)
 
 You need [Codex CLI](https://developers.openai.com/codex/cli/) (installed and signed in) and Python 3.10+. Extract the ZIP, open a terminal in its `compound-intelligence` folder, then run:
 

@@ -10,7 +10,7 @@ Both formats now expose **one** skill. The 21 chapter names and `ci-*` aliases a
 
 ## Recommended Codex installation
 
-[Download the portable ZIP](https://github.com/gofarrrr/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip), extract it and run `python3 scripts/install.py` from the extracted `compound-intelligence` folder. From a cloned full project, use `python3 skills/compound-intelligence/scripts/install.py` instead. The installer copies the complete folder and refuses to overwrite existing or symlinked destinations. An interrupted copy is not success; preserve/reconcile a partial destination before retrying.
+[Download the portable ZIP](https://github.com/kointeligencja/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip), extract it and run `python3 scripts/install.py` from the extracted `compound-intelligence` folder. From a cloned full project, use `python3 skills/compound-intelligence/scripts/install.py` instead. The installer copies the complete folder and refuses to overwrite existing or symlinked destinations. An interrupted copy is not success; preserve/reconcile a partial destination before retrying.
 
 Default destination: `$HOME/.agents/skills/compound-intelligence`. A custom repository-local destination is accepted with `--destination /your/repo/.agents/skills/compound-intelligence`. Cases and credentials do not belong in that installed folder.
 

@@ -4,7 +4,7 @@ Version 0.3.2 includes manual case continuity and installation/Jev setup helpers
 
 ## 1. Install the complete skill
 
-[Download the portable ZIP](https://github.com/gofarrrr/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip), extract it, and open a terminal in its `compound-intelligence` folder:
+[Download the portable ZIP](https://github.com/kointeligencja/compound-intelligence/releases/download/v0.3.2/compound-intelligence-v0.3.2-skill.zip), extract it, and open a terminal in its `compound-intelligence` folder:
 
 ```bash
 python3 scripts/install.py
