@@ -77,8 +77,8 @@ Useful feedback describes the missed distinction or unnecessary step. Share a mi
 
 ## For contributors and packagers
 
-Read [development](docs/DEVELOPMENT.md), [architecture](ARCHITECTURE.md) and [distribution](docs/DISTRIBUTION.md). Run `python3 -m unittest discover -s tests -v` for offline checks. Internal maintainers also read `docs/SESSION-HANDOFF.md` when available.
+Read [development](docs/DEVELOPMENT.md), [architecture](ARCHITECTURE.md) and [distribution](docs/DISTRIBUTION.md). Run `python3 -m unittest discover -s tests -v` for offline checks.
 
 The public builder creates two formats from explicit file lists: a self-contained **portable skill** for users, and a **full project/plugin** with source, tests, presentation and curated documentation. Build into a new external directory with `python3 scripts/build_releases.py --output /absolute/path/to/new-directory`. Never publish a ZIP of the entire development folder: it contains internal material that belongs outside the public packages.
 
-Public exports exclude original book files, personal cases and credentials. The original project work uses the [MIT license](LICENSE), adopted 2026-10-06. [Rights and provenance](NOTICE.md) distinguish the book and third-party rights from our implementation; the project license does not relicense those materials. This independent project is not endorsed by Webb, Every, TypeSafe or OpenAI. A local build is not publication or proof of real-world effectiveness.
+Public exports do not include the original book, personal cases, or credentials. The original project work uses the [MIT license](LICENSE), adopted 2026-10-06. [Rights and attribution](NOTICE.md) distinguish the book and third-party rights from our implementation; the project license does not relicense those materials. This independent project is not endorsed by Webb, Every, TypeSafe or OpenAI. A local build is not publication or proof of real-world effectiveness.

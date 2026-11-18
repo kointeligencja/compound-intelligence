@@ -6,9 +6,9 @@ The [public file manifest](../scripts/public-release-files.json) is the explicit
 | --- | --- |
 | Full project/plugin | Canonical skill, manifests, adapters and original examples; presentation; executable scripts/tests/evals; curated user/developer guides and explicit original synthetic technical evidence. |
 | Portable skill | The entire reviewed canonical skill, including all 21 cards, runtime assets, onboarding and home templates. No presentation, project research or coordinator artifacts. |
-| Internal handoff | Explicitly selected development/PM records and reproducibility artifacts, transferred separately when needed. Never credentials, personal cases or original book files. A whole-directory ZIP is not a safe handoff. |
+| Internal handoff | Explicitly selected development/PM records and reproducibility artifacts, transferred separately when needed. Never credentials, personal cases, or the original book. A whole-directory ZIP is not a safe handoff. |
 
-Public exceptions are individually listed: the archived G diagnostic/ablation evidence and governance records are original technical evidence, not copies of the book-research reports. No `docs/research/`, `docs/internal/`, private `.local/` snapshots, current session handoff or private comparison mapping is shipped. Public validation is summarized in [PUBLIC-VALIDATION.md](PUBLIC-VALIDATION.md); internal development histories remain separate.
+Public exceptions are individually listed: the archived G diagnostic/ablation evidence and governance records are original technical evidence, not copies of the book-research reports. No `docs/research/`, `docs/internal/`, private `.local/` snapshots, private session notes or private comparison mapping is shipped. Public validation is summarized in [PUBLIC-VALIDATION.md](PUBLIC-VALIDATION.md); internal development histories remain separate.
 
 The builder validates all relative Markdown links against the actual member set, refuses symlinks and overwriting, and writes exact per-format contents/hashes beside the ZIPs. The full archive remains an executable/testable project. The portable archive remains self-contained. Declared but missing files fail the build.
 
