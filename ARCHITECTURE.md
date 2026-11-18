@@ -12,7 +12,7 @@ skills/compound-intelligence/
 │   ├── cards/                # 21 preserved source cards
 │   ├── workflows/            # Learn, rehearse, reflect, review, save, etc.
 │   ├── decision-runtime.md   # Runtime contract and limitations
-│   └── source-index.*        # Book source locations and provenance
+│   └── source-index.*        # Chapter, framework, and printed-page references
 ├── assets/decision/
 │   ├── cards.json            # Fit boundaries, aliases and source hashes
 │   ├── policy.json           # Explicit uncalibrated policy defaults

@@ -79,7 +79,20 @@ class StructureTests(unittest.TestCase):
             for section in ['## Select this when','## Route elsewhere when','## Coaching explanation','## Useful output','## Original coaching question','## Small practice','## Observe and adjust','## Common misuse']:
                 self.assertIn(section,text,card)
             self.assertTrue(any(r['legacy_alias']==c['skill'] for r in json.loads((MAIN/'assets/decision/cards.json').read_text())))
-            self.assertTrue(c['primary_epub_spine_path'].startswith('OEBPS/xhtml/'))
+            self.assertNotIn('primary_epub_spine_path', c)
+            self.assertTrue(c['title'] and c['printed_pages'])
+        book=index['book']
+        self.assertEqual(book['author'], 'Caroline Webb')
+        self.assertEqual(book['publisher'], 'Crown Currency')
+        self.assertEqual(book['copyright_year'], 2026)
+        for key in ('epub_isbn', 'source_type'):
+            self.assertNotIn(key, book)
+        blob=(REF/'source-index.json').read_text()+(REF/'source-index.md').read_text()
+        lowered=blob.lower()
+        self.assertNotIn('epub', lowered)
+        self.assertNotIn('oebps', lowered)
+        self.assertNotIn('.xhtml', lowered)
+        self.assertNotIn('user-supplied', lowered)
 
     def test_workflow_adapters_point_to_canonical_files(self):
         for name in WORKFLOWS:

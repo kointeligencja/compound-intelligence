@@ -2,9 +2,9 @@
 
 ## Primary book
 
-Caroline Webb. *Leadership Intelligence: Science-Backed Strategies for Mastering 21 Everyday Management Challenges*. Crown Currency, first edition, copyright 2026. EPUB ISBN 9798217087976. Source: the user-supplied EPUB.
+Caroline Webb. *Leadership Intelligence: Science-Backed Strategies for Mastering 21 Everyday Management Challenges*. Crown Currency, first edition, 2026.
 
-References below use the EPUB’s **embedded printed-page labels**, not reader-specific location numbers. A chapter’s range includes its associated spotlights where relevant. Exact primary chapter spine paths appear in [source-index.json](source-index.json); the book itself is intentionally not distributed with this package.
+References below use printed page numbers. A chapter’s range includes its associated spotlights where relevant. Chapter titles and printed page ranges are listed in [source-index.json](source-index.json). The book itself is not distributed with this package.
 
 | Chapter | Challenge / application card | Framework | Printed pages |
 |---|---|---|---|
@@ -34,13 +34,13 @@ References below use the EPUB’s **embedded printed-page labels**, not reader-s
 
 Introduction, pp. 1–7. Deliberate Wisdom core science, pp. 10–13. Intrinsic Inspiration core science, pp. 116–119. Reasoned Resilience core science, pp. 226–229. Closing Words, pp. 333–334: **Reflect, Repeat, Remind**.
 
-Separate spotlight spine files: Planning for Uncertain Futures, pp. 55–57 (`OEBPS/xhtml/015_c004_sup.xhtml`); Hiring Wisely and Leadership Principles, pp. 72–75 (`017_c005_sup.xhtml`); Role Modeling Change, pp. 151–152 (`025_c011_sup.xhtml`); one-on-one meetings, pp. 178–179 (`028_c013_sup.xhtml`); Developmental Experiences, pp. 209–211 (`031_c015_sup.xhtml`); Talking About Crisis and Bad News, pp. 259–260 (`037_c019_sup.xhtml`). Other spotlights are in the chapter spine files listed in the JSON index. Paths without a directory prefix are under `OEBPS/xhtml/`.
+Separate spotlights: Planning for Uncertain Futures, pp. 55–57; Hiring Wisely and Leadership Principles, pp. 72–75; Role Modeling Change, pp. 151–152; one-on-one meetings, pp. 178–179; Developmental Experiences, pp. 209–211; Talking About Crisis and Bad News, pp. 259–260. Other spotlights fall inside the chapter page ranges in the table above.
 
-## What was extracted and what was added
+## What the summaries cover and what was added
 
-The primary book text was read before the repository architecture: introduction, all three core-science sections, all 21 challenge chapters and spotlights, closing guidance, and notes. Framework names and moves were then organized into concise, independently written application cards. The book’s terminology and three-part organization are retained; author anecdotes and framework images are not reproduced. Promotional material and the bonus excerpt from *How to Have a Good Day* are not used as source material for these skills.
+The cards cover the introduction, all three core-science sections, all 21 challenge chapters and spotlights, the closing guidance, and the notes. Framework names and moves are organized into concise, independently written application cards. The book’s terminology and three-part organization are retained; author anecdotes and framework images are not reproduced. Promotional material and the bonus excerpt from *How to Have a Good Day* are not used as source material for these skills.
 
-The notes were read as part of the supplied source, but the underlying studies have **not** been independently checked, replicated, or updated. Accordingly, the package should say “Webb’s framework suggests…” rather than claim this skill has scientifically proven effectiveness. It contains no empirical evaluation of the plugin’s impact on leadership performance.
+The notes mark that evidence boundary, but the underlying studies have **not** been independently checked, replicated, or updated. Accordingly, the package should say “Webb’s framework suggests…” rather than claim this skill has scientifically proven effectiveness. It contains no empirical evaluation of the plugin’s impact on leadership performance.
 
 The router, compact response protocol, original examples, simulated reviews, practice assessment, persistence schema, consent controls, and safety limits are **implementation design**. They are not named book frameworks. Sources guide the recommendation; they do not establish the facts of a user’s case.
 

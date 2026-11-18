@@ -1,6 +1,6 @@
 # Development guide
 
-The canonical skill is under `skills/compound-intelligence/`; keep one discoverable SKILL.md. Read [architecture](../ARCHITECTURE.md), the [runtime guide](../skills/compound-intelligence/references/decision-runtime.md) and the affected component's guide before editing. Internal maintainers additionally use `docs/SESSION-HANDOFF.md` when present; private session/research records are not part of public distributions.
+The canonical skill is under `skills/compound-intelligence/`; keep one discoverable SKILL.md. Read [architecture](../ARCHITECTURE.md), the [runtime guide](../skills/compound-intelligence/references/decision-runtime.md) and the affected component's guide before editing. Private session and research records stay outside public distributions.
 
 ## Keep the boundaries clear
 

@@ -4,7 +4,7 @@ This optional component turns an **already-decided coaching response** into a st
 
 Open the [synthetic demo](examples/handoffs.html). Choose **Prepare**, **Practise** or **Reflect**. The next move and transferable principle stay beside the task. Click **Example**, **Evidence** or **Sources** to change the reserved reference panel while keeping your writing in place. Try exporting notes and loading that export. The demo is a source-informed illustration, not a live-reviewed result or effectiveness test.
 
-The user accepted the workspace behaviour on 2026-10-03, then requested a complete visual rebuild using their `DESIGN (2).md` Ramp style reference. Both templates now use the new design; the cream/sage theme has been replaced. A new development session should start with the [development guide](../docs/DEVELOPMENT.md); internal maintainers additionally read `docs/SESSION-HANDOFF.md` when present for the latest checks and stopping point. Keep the JSON fixed for layout experiments and regenerate the checked-in demo deliberately when its template changes.
+The user accepted the workspace behaviour on 2026-10-03, then requested a complete visual rebuild using their `DESIGN (2).md` Ramp style reference. Both templates now use the new design; the cream/sage theme has been replaced. A new development session should start with the [development guide](../docs/DEVELOPMENT.md). Keep the JSON fixed for layout experiments and regenerate the checked-in demo deliberately when its template changes.
 
 ## Where it belongs
 

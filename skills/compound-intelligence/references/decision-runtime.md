@@ -62,7 +62,7 @@ For an approved anonymized case, add `--backend typesafe --consent-send` to `rou
 
 The state schema accepts only explicit fields. `case_id` and `data_class` remain local. The model sees a redacted request/goal, attributed observations, interpretations, unknowns, constraints, selected mode, and bounded context flags. Secret-like tokens and email addresses receive limited filtering. **Names, phone numbers, identifying events, and all sensitive meaning are not guaranteed to be removed.** A human-approved packet and provider approval are still necessary. `restricted` is the default classification and is never sent even with consent.
 
-The review call additionally sends the redacted draft and the exact local summary cards used for it; it does not send the EPUB. Review authorization covers that additional draft content, not merely the original case. Preview or inspect it before granting consent when appropriate.
+The review call additionally sends the redacted draft and the exact local summary cards used for it; it does not send the full book text. Review authorization covers that additional draft content, not merely the original case. Preview or inspect it before granting consent when appropriate.
 
 The helper returns a receipt on stdout. It writes only when `--output` names an explicit destination. Persistent receipt and reflection files are owner-only, create-exclusive, and outside the installed package. Parent directories must already exist. No automatic chat-history store, global cache, training upload, background hook, or hidden memory is present. Host transcripts and terminal capture remain subject to the host's own data handling.
 

@@ -2,7 +2,7 @@
 
 ## Book source
 
-Caroline Webb, *Leadership Intelligence: Science-Backed Strategies for Mastering 21 Everyday Management Challenges*, Crown Currency, copyright 2026. Book text, images, anecdotes, and original expression retain their respective rights. The user supplied the EPUB for this adaptation. The package contains independently worded technique summaries, source references, and original implementation material; it does not include the EPUB, extracted book text, or book illustrations.
+Caroline Webb, *Leadership Intelligence: Science-Backed Strategies for Mastering 21 Everyday Management Challenges*, Crown Currency, 2026. Book text, images, anecdotes, and original expression retain their respective rights. The package contains independently worded technique summaries, bibliographic references, and original implementation material; it does not include the book text or book illustrations.
 
 Framework names are retained for accurate attribution. This package is not endorsed by the author or publisher. Possessing this package does not grant rights to redistribute the original book or its images.
 
@@ -16,7 +16,7 @@ Inspected revision: `8fd0ec88c00976cf0274cb76552dc7ad9405ca92`, manifest version
 
 The maintainer adopted the [MIT license](LICENSE) on 2026-10-06 for the project's original code and instructions. Original templates, example dialogue, evaluation cases, presentation and independently worded summaries are included to the extent contributors hold rights in that material. Preserve the license and attribution notices when redistributing.
 
-This license does not relicense Caroline Webb's source book, third-party expression, trademarks or services, and does not imply author or publisher permission or endorsement. Original book files and copied research reports are excluded from public packages. This notice records provenance and scope; it is not legal clearance of third-party rights.
+This license does not relicense Caroline Webb's book, third-party expression, trademarks or services, and does not imply author or publisher permission or endorsement. The original book and copied research reports are not part of public packages. This notice records attribution and scope; it is not legal clearance of third-party rights.
 
 ## TypeSafe integration in 0.2.0
 

@@ -8,7 +8,7 @@ Network access is opt-in. An explicit `--consent-send` or the user's session set
 
 Before sending a case, minimize it and replace names and identifying details. Common secret-like tokens and email addresses are filtered, and private-key markers are refused. This does **not** remove all PII, names, phone numbers, identifiers, diagnoses, or distinctive narratives. It is not DLP or proof of anonymity. Provider contracts, retention settings, and data residency are not configured or certified by this package.
 
-The preflight receives the approved case and compact question/card-fit instructions. The postflight additionally receives the proposed answer and the actual source-summary cards; approval must cover the draft as well. The EPUB and original full book text are not part of any request. An external API call may incur usage, including repeated calls after transport failures.
+The preflight receives the approved case and compact question/card-fit instructions. The postflight additionally receives the proposed answer and the actual source-summary cards; approval must cover the draft as well. The full book text is not part of any request. An external API call may incur usage, including repeated calls after transport failures.
 
 Raw state/drafts are read from user-authorized files or host-created transient files, not persisted automatically by the helper. A host may still retain its own transcript, terminal output, or scratch artifacts under its own settings. Use owner-only scratch files outside installations and remove them when no longer needed. Preview output contains the minimized state and must also be handled appropriately.
 
